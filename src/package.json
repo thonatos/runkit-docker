@@ -1,0 +1,16 @@
+{
+  "name": "runkit",
+  "version": "1.0.0",
+  "main": "runkit.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node runkit.js"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
