@@ -4,5 +4,5 @@
 
 ```
 docker build -t runkit .
-docker run -rrm -it -v "${PWD}"/data:/data runkit:latest sh
+docker run -rm -it -v "${PWD}"/data:/data runkit:latest sh
 ```
